@@ -779,7 +779,2115 @@ const INFO_AMIGO = [
 const INFO_YO_ = typeof INFO_YO !== "undefined" ? INFO_YO : [];
 const PROFILES = {
   yo: { id: "yo", name: "Ishtar", sub: "Media en ~1:55 · 5K sub-25 · 10K sub-55", sp: "", dbp: "",
-    plan: [{"n": 1, "range": "26 oct – 1 nov", "name": "Vuelta al volumen", "note": "Octubre ha sido de ~30 km en total. Tras 3-4 semanas casi sin estímulo se pierde volumen plasmático y la FC sube 5-10 ppm al mismo ritmo, así que estas semanas se corren por pulso (≤150 ppm), aunque salga más lento que 6'45\"-7'00\"/km. (Semana empezada el martes: el lunes 26 fue descanso.) Empieza a apuntar cada mañana el pulso en reposo (y la VFC si tu reloj la da) y cómo te sientes: hacen falta ~4 semanas para tener tu línea base.", "s": [{"id": "s1-lun", "day": "Mar 27", "date": "2026-10-27", "type": "Z2 + rectas", "desc": "Rodaje suave (FC ≤150) + 4 rectas de 80 m", "km": 4}, {"id": "s1-mar", "day": "Mié 28", "date": "2026-10-28", "type": "Rodaje Z2", "desc": "Suave", "km": 5}, {"id": "s1-jue", "day": "Vie 30", "date": "2026-10-30", "type": "Z2 + rectas", "desc": "Rodaje suave + 4 rectas", "km": 4}, {"id": "s1-sab", "day": "Sáb 31", "date": "2026-10-31", "type": "Tirada Z2", "desc": "Tirada corta, ritmo cómodo", "km": 6}]}, {"n": 2, "range": "2 – 8 nov", "name": "Vuelta al volumen", "note": "La tirada crece poco a poco: ninguna salida más de un 10% por encima de la más larga del último mes (la regla con mejor evidencia de prevención de lesiones).", "s": [{"id": "s2-lun", "day": "Lun 2", "date": "2026-11-02", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 5}, {"id": "s2-mar", "day": "Mar 3", "date": "2026-11-03", "type": "Fartlek suave", "desc": "1,5 km calent. + 6 × 1' a sensación de 10K / 1' suave + rodaje suave hasta 6 km", "km": 6}, {"id": "s2-jue", "day": "Jue 5", "date": "2026-11-05", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 5}, {"id": "s2-sab", "day": "Sáb 7", "date": "2026-11-07", "type": "Tirada Z2", "desc": "Ritmo cómodo", "km": 6.5}]}, {"n": 3, "range": "9 – 15 nov", "name": "Base + VO2máx", "note": "Segundo fartlek, algo más largo y todavía por sensaciones. Desde esta semana corres 5 días: el viernes es un rodaje corto y muy suave antes de la tirada, que reparte el volumen para que cada salida pese menos.", "s": [{"id": "s3-lun", "day": "Lun 9", "date": "2026-11-09", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 5}, {"id": "s3-mar", "day": "Mar 10", "date": "2026-11-10", "type": "Fartlek", "desc": "2 km calent. + 7 × (1' a sensación de 10K / 1' suave) + 1 km enfr.", "km": 6}, {"id": "s3-jue", "day": "Jue 12", "date": "2026-11-12", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 4}, {"id": "s3-vie", "day": "Vie 13", "date": "2026-11-13", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 3}, {"id": "s3-sab", "day": "Sáb 14", "date": "2026-11-14", "type": "Tirada Z2", "desc": "Ritmo cómodo", "km": 7.2}]}, {"n": 4, "range": "16 – 22 nov", "name": "Base + test de umbral", "note": "Repetimos el test guiado del reloj para actualizar la FC de umbral (el pulso es más fiable que el ritmo que calcula). Empiezan los sprints en cuesta.", "s": [{"id": "s4-lun", "day": "Lun 16", "date": "2026-11-16", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 5}, {"id": "s4-mar", "day": "Mar 17", "date": "2026-11-17", "type": "TEST umbral", "desc": "Prueba de umbral guiada del reloj (etapas por FC), con piernas descansadas", "km": 5}, {"id": "s4-jue", "day": "Jue 19", "date": "2026-11-19", "type": "Z2 + cuestas", "desc": "Rodaje suave + 6 sprints de 8-10\" en cuesta del 6-10% (rec. 2-3' andando)", "km": 6}, {"id": "s4-vie", "day": "Vie 20", "date": "2026-11-20", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 3.5}, {"id": "s4-sab", "day": "Sáb 21", "date": "2026-11-21", "type": "Tirada Z2", "desc": "Ritmo cómodo", "km": 8}]}, {"n": 5, "range": "23 – 29 nov", "name": "Base + VO2máx", "note": "Primeras series de VO2máx (5×3'): intervalos largos, el formato con mejor evidencia para subir el VO2máx. Empieza también la pierna pesada del miércoles, así que el jueves es solo Z2 con rectas.", "s": [{"id": "s5-lun", "day": "Lun 23", "date": "2026-11-23", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 5}, {"id": "s5-mar", "day": "Mar 24", "date": "2026-11-24", "type": "5 × 3'", "desc": "2 km calent. + 5 × 3' a 4'50\"-5'05\"/km (rec. 2' trote) + 2 km enfr.", "km": 8}, {"id": "s5-jue", "day": "Jue 26", "date": "2026-11-26", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas (la pierna pesada ya es el estímulo nuevo de la semana)", "km": 6}, {"id": "s5-vie", "day": "Vie 27", "date": "2026-11-27", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 4}, {"id": "s5-sab", "day": "Sáb 28", "date": "2026-11-28", "type": "Tirada Z2", "desc": "Ritmo cómodo", "km": 8.8}]}, {"n": 6, "range": "30 nov – 6 dic", "name": "Base + VO2máx", "note": "Dos calidades (martes y jueves), así que la tirada del sábado va entera en Z2.", "s": [{"id": "s6-lun", "day": "Lun 30", "date": "2026-11-30", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 5}, {"id": "s6-mar", "day": "Mar 1", "date": "2026-12-01", "type": "4 × 4'", "desc": "2 km calent. + 4 × 4' a 4'50\"-5'05\"/km (rec. 3' trote) + 1,5 km enfr.", "km": 8}, {"id": "s6-jue", "day": "Jue 3", "date": "2026-12-03", "type": "Subumbral 4 × 6'", "desc": "2 km calent. + 4 × 6' a FC 152-164 (rec. 1' trote) + 1 km enfr.", "km": 7}, {"id": "s6-vie", "day": "Vie 4", "date": "2026-12-04", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 4}, {"id": "s6-sab", "day": "Sáb 5", "date": "2026-12-05", "type": "Tirada Z2", "desc": "Ritmo cómodo, entera suave", "km": 9.5}]}, {"n": 7, "range": "7 – 13 dic", "name": "Mini-descarga + TEST 5K", "note": "Mini-taper de 4-5 días manteniendo la intensidad. Recorrido llano y sin semáforos (o pista). Con el resultado recalculamos todas las zonas de ritmo.", "s": [{"id": "s7-lun", "day": "Lun 7", "date": "2026-12-07", "type": "Z2 + rectas", "desc": "Rodaje suave + 4 rectas", "km": 5}, {"id": "s7-mar", "day": "Mar 8", "date": "2026-12-08", "type": "Activación", "desc": "2 km calent. + 3 × 3' a ritmo 5K (4'55\"-5'00\") rec. 2' + 1 km enfr.", "km": 6}, {"id": "s7-jue", "day": "Jue 10", "date": "2026-12-10", "type": "Z2 + rectas", "desc": "Rodaje muy suave + 4 rectas", "km": 5}, {"id": "s7-sab", "day": "Sáb 12", "date": "2026-12-12", "type": "TEST 5K", "desc": "2 km calent. + 4 rectas + 5 km a tope (objetivo ≤ 4'59\"/km → sub-25) + 1,5 km enfr.", "km": 8.5}]}, {"n": 8, "range": "14 – 20 dic", "name": "Umbral / 10K", "note": "Tras un 5K la fuerza tarda ~4 días en volver aunque no haya agujetas: el martes es suave y la calidad pasa al jueves.", "s": [{"id": "s8-lun", "day": "Lun 14", "date": "2026-12-14", "type": "Rodaje Z1", "desc": "Regenerativo", "km": 5}, {"id": "s8-mar", "day": "Mar 15", "date": "2026-12-15", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s8-jue", "day": "Jue 17", "date": "2026-12-17", "type": "Ritmo 10K", "desc": "2 km calent. + 5 × 1 km a 5'20\"-5'25\"/km (rec. 2') + 1,5 km enfr.", "km": 9}, {"id": "s8-vie", "day": "Vie 18", "date": "2026-12-18", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 4}, {"id": "s8-sab", "day": "Sáb 19", "date": "2026-12-19", "type": "Tirada Z2", "desc": "Entera suave", "km": 10.4}]}, {"n": 9, "range": "21 – 27 dic", "name": "Umbral / 10K", "note": "Semana de Navidad: si hay que mover días, prioriza el martes y el sábado.", "s": [{"id": "s9-lun", "day": "Lun 21", "date": "2026-12-21", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 5}, {"id": "s9-mar", "day": "Mar 22", "date": "2026-12-22", "type": "Pirámide 10K", "desc": "2 km calent. + 1-2-2-1 km a 5'20\"-5'28\"/km (rec. 2') + 2 km enfr.", "km": 10}, {"id": "s9-jue", "day": "Jue 24", "date": "2026-12-24", "type": "Z2 + rectas", "desc": "Rodaje suave + 4 rectas", "km": 6}, {"id": "s9-vie", "day": "Vie 25", "date": "2026-12-25", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 4}, {"id": "s9-sab", "day": "Sáb 26", "date": "2026-12-26", "type": "Tirada Z2", "desc": "Ritmo cómodo (4 días antes de la carrera)", "km": 11.4}]}, {"n": 10, "range": "28 dic – 3 ene", "name": "CARRERA: San Silvestre de Huelva 10K", "note": "Intento oficial de sub-55 (≤ 5'29\"/km). Primer km a ≤ 5'30\", asentarse en 5'25\"-5'28\" y apretar desde el km 8. Este resultado decide el ritmo objetivo de Ayamonte.", "s": [{"id": "s10-lun", "day": "Lun 28", "date": "2026-12-28", "type": "Z2 + toques", "desc": "5,5 km suaves con 3 × 1' a ritmo 10K", "km": 5.5}, {"id": "s10-mar", "day": "Mar 29", "date": "2026-12-29", "type": "Activación", "desc": "20' de trote muy suave (o descanso)", "km": 3.5}, {"id": "s10-mie", "day": "Mié 30", "date": "2026-12-30", "type": "CARRERA 10K", "desc": "San Silvestre 10K · ~2 km calentamiento + 10 km objetivo sub-55", "km": 12}, {"id": "s10-sab", "day": "Sáb 2", "date": "2027-01-02", "type": "Rodaje Z1", "desc": "Regenerativo", "km": 9}]}, {"n": 11, "range": "4 – 10 ene", "name": "Específico media", "note": "Desde aquí todo se orienta a Ayamonte. El umbral pasa a ser la sesión central, hecho por pulso y «controlado», unas pulsaciones por debajo del techo.", "s": [{"id": "s11-lun", "day": "Lun 4", "date": "2027-01-04", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s11-mar", "day": "Mar 5", "date": "2027-01-05", "type": "Umbral", "desc": "2 km calent. + 3 × 2 km a FC 165-172 (rec. 2') + 2 km enfr.", "km": 10}, {"id": "s11-jue", "day": "Jue 7", "date": "2027-01-07", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas (el sábado lleva final a ritmo de media)", "km": 7}, {"id": "s11-vie", "day": "Vie 8", "date": "2027-01-08", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 4.5}, {"id": "s11-sab", "day": "Sáb 9", "date": "2027-01-09", "type": "Tirada final RM", "desc": "12,5 km: 10 en Z2 + últimos 2,5 km a ritmo media (RM)", "km": 12.5}]}, {"n": 12, "range": "11 – 17 ene", "name": "Específico media", "note": "Esta semana se fija el ritmo de media con el resultado del 10K: ≤52:00 → 5'27\"-5'30\"; 52:00-53:30 → 5'33\"-5'36\"; >53:30 → 5'41\".", "s": [{"id": "s12-lun", "day": "Lun 11", "date": "2027-01-11", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s12-mar", "day": "Mar 12", "date": "2027-01-12", "type": "Tempo", "desc": "2 km calent. + 2 × 15' a FC 165-172 (rec. 3') + 2 km enfr.", "km": 11}, {"id": "s12-jue", "day": "Jue 14", "date": "2027-01-14", "type": "Subumbral 5 × 6'", "desc": "2 km calent. + 5 × 6' a FC 152-164 (rec. 1' trote) + 1 km enfr.", "km": 7.5}, {"id": "s12-vie", "day": "Vie 15", "date": "2027-01-15", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 5}, {"id": "s12-sab", "day": "Sáb 16", "date": "2027-01-16", "type": "Tirada Z2", "desc": "Ritmo cómodo", "km": 13.6}]}, {"n": 13, "range": "18 – 24 ene", "name": "Descarga", "note": "Semana de asimilación: menos volumen y un toque de VO2máx para no perder chispa. Pierna al 60%. Buen momento para un análisis de sangre con ferritina, hemoglobina y saturación de transferrina (por la mañana, sin entreno fuerte el día antes).", "s": [{"id": "s13-lun", "day": "Lun 18", "date": "2027-01-18", "type": "Rodaje Z1", "desc": "Suave", "km": 6}, {"id": "s13-mar", "day": "Mar 19", "date": "2027-01-19", "type": "5 × 3'", "desc": "2 km calent. + 5 × 3' a 4'50\"-5'00\"/km (rec. 2' trote) + 2 km enfr.", "km": 9}, {"id": "s13-jue", "day": "Jue 21", "date": "2027-01-21", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s13-sab", "day": "Sáb 23", "date": "2027-01-23", "type": "Tirada Z2", "desc": "Ritmo cómodo", "km": 12}]}, {"n": 14, "range": "25 – 31 ene", "name": "Específico media", "note": "Tirada entera suave, así que el jueves toca subumbral (3×10'). Desde ahora, cuando puedas, las tiradas a la misma hora que la carrera (17-18 h).", "s": [{"id": "s14-lun", "day": "Lun 25", "date": "2027-01-25", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s14-mar", "day": "Mar 26", "date": "2027-01-26", "type": "Ritmo media", "desc": "2 km calent. + 3 × 3 km a RM (rec. 2') + 1 km enfr.", "km": 12}, {"id": "s14-jue", "day": "Jue 28", "date": "2027-01-28", "type": "Subumbral 3 × 10'", "desc": "2 km calent. + 3 × 10' a FC 152-164 (rec. 2' trote) + 1 km enfr.", "km": 8}, {"id": "s14-vie", "day": "Vie 29", "date": "2027-01-29", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 5}, {"id": "s14-sab", "day": "Sáb 30", "date": "2027-01-30", "type": "Tirada Z2", "desc": "15 km en Z2", "km": 15}]}, {"n": 15, "range": "1 – 7 feb", "name": "Específico media", "note": "El martes es el test que decide si Ayamonte va a 1:55.", "s": [{"id": "s15-lun", "day": "Lun 1", "date": "2027-02-01", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s15-mar", "day": "Mar 2", "date": "2027-02-02", "type": "Ritmo media · test 1:55", "desc": "2 km calent. + 2 × 5 km a 5'27\"/km (rec. 3') + 1 km enfr. Test de decisión: si sale con FC <168 y RPE ≤6, objetivo 1:55", "km": 13}, {"id": "s15-jue", "day": "Jue 4", "date": "2027-02-04", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas (o subumbral corto 6 × 5' si todo va bien)", "km": 7}, {"id": "s15-vie", "day": "Vie 5", "date": "2027-02-05", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 5}, {"id": "s15-sab", "day": "Sáb 6", "date": "2027-02-06", "type": "Tirada Z2", "desc": "16,5 km en Z2", "km": 16.5}]}, {"n": 16, "range": "8 – 14 feb", "name": "Ensayo general", "note": "El sábado es el ensayo de carrera: ritmo, gel/agua, desayuno y zapatillas exactamente como el día D.", "s": [{"id": "s16-lun", "day": "Lun 8", "date": "2027-02-08", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s16-mar", "day": "Mar 9", "date": "2027-02-09", "type": "Umbral moderado", "desc": "2 km calent. + 4 × 8' en la parte baja de Z4 (FC 165-170, rec. 2') + 1,5 km enfr.", "km": 11}, {"id": "s16-jue", "day": "Jue 11", "date": "2027-02-11", "type": "Z2 + rectas", "desc": "Rodaje suave + 4 rectas", "km": 7}, {"id": "s16-vie", "day": "Vie 12", "date": "2027-02-12", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 4}, {"id": "s16-sab", "day": "Sáb 13", "date": "2027-02-13", "type": "ENSAYO", "desc": "16 km: 3 Z2 + 10 km continuos a RM + 3 Z2. Ensayo general a las 18:00", "km": 16}]}, {"n": 17, "range": "15 – 21 feb", "name": "Pico de volumen", "note": "La semana más cargada y la tirada más larga. Si vas sobrado, puedes alargar 1 km los rodajes del lunes y el jueves.", "s": [{"id": "s17-lun", "day": "Lun 15", "date": "2027-02-15", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6.5}, {"id": "s17-mar", "day": "Mar 16", "date": "2027-02-16", "type": "Ritmo media", "desc": "2 km calent. + 3 × 3 km a RM (rec. 2') + 1 km enfr.", "km": 12}, {"id": "s17-jue", "day": "Jue 18", "date": "2027-02-18", "type": "Z2 + cuestas", "desc": "Rodaje suave + últimos 6 sprints en cuesta del plan", "km": 7}, {"id": "s17-vie", "day": "Vie 19", "date": "2027-02-19", "type": "Rodaje Z2", "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)", "km": 5}, {"id": "s17-sab", "day": "Sáb 20", "date": "2027-02-20", "type": "Tirada final RM", "desc": "18,2 km (la más larga): 15-15,5 en Z2 + últimos 3 km a RM", "km": 18.2}]}, {"n": 18, "range": "22 – 28 feb", "name": "Afinamiento", "note": "Empieza el taper: volumen −25-30%, intensidad igual. Sin progresivos.", "s": [{"id": "s18-lun", "day": "Lun 22", "date": "2027-02-22", "type": "Z2 + rectas", "desc": "Rodaje suave + 6 rectas", "km": 6}, {"id": "s18-mar", "day": "Mar 23", "date": "2027-02-23", "type": "Ritmo media", "desc": "2 km calent. + 2 × 3 km a RM (rec. 2') + 2 km enfr.", "km": 10}, {"id": "s18-jue", "day": "Jue 25", "date": "2027-02-25", "type": "Z2 + rectas", "desc": "Rodaje suave + 4 rectas", "km": 5}, {"id": "s18-sab", "day": "Sáb 27", "date": "2027-02-27", "type": "Tirada media", "desc": "12,5 km: Z2 con 3 km a RM", "km": 12.5}]}, {"n": 19, "range": "1 – 7 mar", "name": "CARRERA: Media Maratón de Ayamonte", "note": "Fecha estimada: sábado 6 de marzo (en 2026 fue el sábado 7 a las 18:00). Unos 19 km antes de la carrera (−58% respecto al pico) y sin repuntes de volumen.", "s": [{"id": "s19-lun", "day": "Lun 1", "date": "2027-03-01", "type": "Z2 + rectas", "desc": "Rodaje suave + 4 rectas", "km": 6}, {"id": "s19-mar", "day": "Mar 2", "date": "2027-03-02", "type": "Recordatorio", "desc": "1,5 km calent. + 3 × 1,5 km a RM (rec. 90\") + 1,5 km enfr.", "km": 8}, {"id": "s19-jue", "day": "Jue 4", "date": "2027-03-04", "type": "Activación", "desc": "Trote suave + 3 rectas", "km": 5}, {"id": "s19-sab", "day": "Sáb 6", "date": "2027-03-06", "type": "CARRERA 21K", "desc": "~1,5 km calentamiento + 21,1 km. Salida 5\"/km más lenta que RM los 2 primeros km", "km": 22.6}]}], parts: {"s1-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 4}, {"n": "Rectas", "k": "rect", "reps": 4}], "s1-mar": [{"n": "Rodaje Z2", "k": "z2", "km": 5}], "s1-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 4}, {"n": "Rectas", "k": "rect", "reps": 4}], "s1-sab": [{"n": "Tirada Z2", "k": "z2", "km": 6}], "s2-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s2-mar": [{"n": "Calentamiento", "k": "cal", "km": 1.5}, {"n": "Fartlek", "k": "far", "reps": 6, "wmin": 1, "rmin": 1, "rk": "trot", "x": "1' a sensación de 10K / 1' suave, sin mirar el ritmo"}, {"n": "Rodaje suave", "k": "z2", "km": 2.5}], "s2-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s2-sab": [{"n": "Tirada Z2", "k": "z2", "km": 6.5}], "s3-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s3-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Fartlek", "k": "far", "reps": 7, "wmin": 1, "rmin": 1, "rk": "trot", "x": "1' a sensación de 10K / 1' suave"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s3-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 4}, {"n": "Rectas", "k": "rect", "reps": 6}], "s3-sab": [{"n": "Tirada Z2", "k": "z2", "km": 7.2}], "s4-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s4-mar": [{"n": "Etapa 1", "k": "test", "min": 8, "hr": "126-147"}, {"n": "Etapa 2", "k": "test", "min": 5, "hr": "147-157"}, {"n": "Etapa 3", "k": "test", "min": 3.5, "hr": "157-166"}, {"n": "Etapa 4", "k": "test", "min": 3.5, "hr": "166-176"}, {"n": "Etapa 5", "k": "test", "min": 3, "hr": "176-186"}, {"n": "Etapa 6", "k": "test", "min": 3, "hr": "186-195"}, {"n": "Vuelta a la calma", "k": "z1", "min": 8, "x": "Hasta donde llegues: el reloj calcula el umbral con las etapas completadas"}], "s4-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Sprints en cuesta", "k": "cue", "reps": 6, "lbl": "6 × 8-10\"", "x": "Cuesta del 6-10%, bajar andando 2-3'"}], "s4-sab": [{"n": "Tirada Z2", "k": "z2", "km": 8}], "s5-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s5-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Series", "k": "vo2", "reps": 5, "wmin": 3, "rmin": 2, "rk": "trot", "x": "Intervalos largos: más tiempo real cerca del VO2máx"}, {"n": "Enfriamiento", "k": "z1", "km": 2}], "s5-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s5-sab": [{"n": "Tirada Z2", "k": "z2", "km": 8.8}], "s6-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s6-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Series", "k": "vo2", "reps": 4, "wmin": 4, "rmin": 3, "rk": "trot", "x": "El pulso sube poco a poco: no aceleres en las primeras"}, {"n": "Enfriamiento", "k": "z1", "km": 1.5}], "s6-jue": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Subumbral", "k": "sub", "reps": 4, "wmin": 6, "rmin": 1, "rk": "trot", "x": "Cómodamente exigente (RPE 5-6). La última no pasa de 164"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s6-sab": [{"n": "Tirada Z2", "k": "z2", "km": 9.5}], "s7-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 4}], "s7-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Ritmo 5K", "k": "k5", "reps": 3, "wmin": 3, "rmin": 2, "rk": "trot"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s7-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 4}], "s7-sab": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Rectas", "k": "rect", "reps": 4}, {"n": "TEST 5K", "k": "test5", "km": 5, "x": "Km 1 controlado a 5'00\", luego a tope"}, {"n": "Enfriamiento", "k": "z1", "km": 1.5}], "s8-lun": [{"n": "Rodaje Z1", "k": "z1", "km": 5}], "s8-mar": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s8-jue": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Series", "k": "k10", "reps": 5, "wkm": 1, "rmin": 2, "rk": "trot"}, {"n": "Enfriamiento", "k": "z1", "km": 1.5}], "s8-sab": [{"n": "Tirada Z2", "k": "z2", "km": 10.4}], "s9-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s9-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Pirámide", "k": "k10", "seq": [1, 2, 2, 1], "rmin": 2, "rk": "trot", "lbl": "1-2-2-1 km"}, {"n": "Enfriamiento", "k": "z1", "km": 2}], "s9-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 4}], "s9-sab": [{"n": "Tirada Z2", "k": "z2", "km": 11.4}], "s10-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 4.5}, {"n": "Toques", "k": "k10", "reps": 3, "wmin": 1, "rmin": 2, "rk": "z2", "x": "Recuperación rodando suave"}, {"n": "Rodaje Z2", "k": "z2", "km": 0.5}], "s10-mar": [{"n": "Trote", "k": "z1", "min": 20, "x": "O descanso, si lo prefieres"}], "s10-mie": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Km 1", "k": "race10a", "km": 1}, {"n": "Km 2-7", "k": "race10", "km": 6}, {"n": "Km 8-10", "k": "race10z", "km": 3, "x": "Si vas bien, aprieta"}], "s10-sab": [{"n": "Rodaje Z1", "k": "z1", "km": 9}], "s11-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s11-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Umbral", "k": "u", "reps": 3, "wkm": 2, "rmin": 2, "rk": "trot", "x": "Por pulso"}, {"n": "Enfriamiento", "k": "z1", "km": 2}], "s11-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 7}, {"n": "Rectas", "k": "rect", "reps": 6}], "s11-sab": [{"n": "Tirada Z2", "k": "z2", "km": 10.0}, {"n": "Final a RM", "k": "rm", "km": 2.5}], "s12-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s12-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Tempo", "k": "u", "reps": 2, "wmin": 15, "rmin": 3, "rk": "trot", "x": "Por pulso"}, {"n": "Enfriamiento", "k": "z1", "km": 2}], "s12-jue": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Subumbral", "k": "sub", "reps": 5, "wmin": 6, "rmin": 1, "rk": "trot", "x": "Cómodamente exigente (RPE 5-6). La última no pasa de 164"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s12-sab": [{"n": "Tirada Z2", "k": "z2", "km": 13.6, "x": "Primer gel a los 35-40 min: empieza a entrenar el estómago"}], "s13-lun": [{"n": "Rodaje Z1", "k": "z1", "km": 6}], "s13-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Series", "k": "vo2", "reps": 5, "wmin": 3, "rmin": 2, "rk": "trot"}, {"n": "Enfriamiento", "k": "z1", "km": 2}], "s13-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s13-sab": [{"n": "Tirada Z2", "k": "z2", "km": 12}], "s14-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s14-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Ritmo media", "k": "rm", "reps": 3, "wkm": 3, "rmin": 2, "rk": "trot"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s14-jue": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Subumbral", "k": "sub", "reps": 3, "wmin": 10, "rmin": 2, "rk": "trot", "x": "Cómodamente exigente (RPE 5-6). La última no pasa de 164"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s14-sab": [{"n": "Tirada Z2", "k": "z2", "km": 15, "x": "Gel a los 35-40 min y otro hacia el km 11. Si puedes, a las 17-18 h, la hora de la carrera"}], "s15-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s15-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Ritmo media", "k": "rm", "reps": 2, "wkm": 5, "rmin": 3, "rk": "trot", "x": "Test del 1:55: a 5'27\"/km. FC <168 y RPE ≤6 → vas a por 1:55; si no, 1:57-1:58"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s15-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 7}, {"n": "Rectas", "k": "rect", "reps": 6}], "s15-sab": [{"n": "Tirada Z2", "k": "z2", "km": 16.5, "x": "2 geles (km 6-7 y 12-13)"}], "s16-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s16-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Umbral moderado", "k": "u8", "reps": 4, "wmin": 8, "rmin": 2, "rk": "trot", "x": "Parte baja de Z4"}, {"n": "Enfriamiento", "k": "z1", "km": 1.5}], "s16-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 7}, {"n": "Rectas", "k": "rect", "reps": 4}], "s16-sab": [{"n": "Rodaje Z2", "k": "z2", "km": 3}, {"n": "Bloque a RM", "k": "rm", "km": 10, "x": "Ensayo completo: comida a las 13:30-14:30, cafeína a las 17:00 (si ya la has probado), Zoom Fly, geles en los km 6-7 y 13-14. Pésate antes y después"}, {"n": "Rodaje Z2", "k": "z2", "km": 3}], "s17-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6.5}, {"n": "Rectas", "k": "rect", "reps": 6}], "s17-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Ritmo media", "k": "rm", "reps": 3, "wkm": 3, "rmin": 2, "rk": "trot"}, {"n": "Enfriamiento", "k": "z1", "km": 1}], "s17-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 7.0}, {"n": "Sprints en cuesta", "k": "cue", "reps": 6, "lbl": "6 × 8-10\"", "x": "Cuesta del 6-10%, bajar andando 2-3'"}], "s17-sab": [{"n": "Tirada Z2", "k": "z2", "km": 15.2, "x": "Gel hacia el km 8 y el 14"}, {"n": "Final a RM", "k": "rm", "km": 3}], "s18-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 6}], "s18-mar": [{"n": "Calentamiento", "k": "cal", "km": 2, "x": "+ movilidad y 3-4 rectas"}, {"n": "Ritmo media", "k": "rm", "reps": 2, "wkm": 3, "rmin": 2, "rk": "trot"}, {"n": "Enfriamiento", "k": "z1", "km": 2}], "s18-jue": [{"n": "Rodaje Z2", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 4}], "s18-sab": [{"n": "Tirada Z2", "k": "z2", "km": 9.5}, {"n": "Final a RM", "k": "rm", "km": 3}], "s19-lun": [{"n": "Rodaje Z2", "k": "z2", "km": 6}, {"n": "Rectas", "k": "rect", "reps": 4}], "s19-mar": [{"n": "Calentamiento", "k": "cal", "km": 1.5}, {"n": "Ritmo media", "k": "rm", "reps": 3, "wkm": 1.5, "rmin": 1.5, "rk": "trot"}, {"n": "Enfriamiento", "k": "z1", "km": 1.5}], "s19-jue": [{"n": "Trote", "k": "z2", "km": 5}, {"n": "Rectas", "k": "rect", "reps": 3}], "s19-sab": [{"n": "Calentamiento", "k": "cal", "km": 1.5, "x": "+ 3 rectas"}, {"n": "Km 1-2", "k": "rm", "km": 2, "off": 5, "x": "5\"/km más lento que RM"}, {"n": "Km 3-18", "k": "rm", "km": 16, "x": "Geles en el km 7 y el 14"}, {"n": "Km 19-21,1", "k": "rm", "km": 3.1, "off": -8, "x": "Lo que quede"}], "s3-vie": [{"n": "Rodaje suave", "k": "z2", "km": 3, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s4-vie": [{"n": "Rodaje suave", "k": "z2", "km": 3.5, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s5-vie": [{"n": "Rodaje suave", "k": "z2", "km": 4, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s6-vie": [{"n": "Rodaje suave", "k": "z2", "km": 4, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s8-vie": [{"n": "Rodaje suave", "k": "z2", "km": 4, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s9-vie": [{"n": "Rodaje suave", "k": "z2", "km": 4, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s11-vie": [{"n": "Rodaje suave", "k": "z2", "km": 4.5, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s12-vie": [{"n": "Rodaje suave", "k": "z2", "km": 5, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s14-vie": [{"n": "Rodaje suave", "k": "z2", "km": 5, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s15-vie": [{"n": "Rodaje suave", "k": "z2", "km": 5, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s16-vie": [{"n": "Rodaje suave", "k": "z2", "km": 4, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}], "s17-vie": [{"n": "Rodaje suave", "k": "z2", "km": 5, "x": "Suave de verdad: piernas sueltas para mañana", "hr": "≤140"}]}, info: INFO_YO, f5base: 1500, ph5: "24:45", ph10: "52:30",
+    plan: [
+ {
+  "n": 1,
+  "range": "26 oct – 1 nov",
+  "name": "Vuelta al volumen",
+  "note": "Octubre ha sido de ~30 km en total. Tras 3-4 semanas casi sin estímulo se pierde volumen plasmático y la FC sube 5-10 ppm al mismo ritmo, así que estas semanas se corren por pulso (≤150 ppm), aunque salga más lento que 6'45\"-7'00\"/km. (Semana empezada el martes: el lunes 26 fue descanso.) Empieza a apuntar cada mañana el pulso en reposo (y la VFC si tu reloj la da) y cómo te sientes: hacen falta ~4 semanas para tener tu línea base.",
+  "s": [
+   {
+    "id": "s1-lun",
+    "day": "Mar 27",
+    "date": "2026-10-27",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave (FC ≤150) + 4 rectas de 80 m",
+    "km": 4
+   },
+   {
+    "id": "s1-mar",
+    "day": "Mié 28",
+    "date": "2026-10-28",
+    "type": "Rodaje Z2",
+    "desc": "Suave",
+    "km": 5
+   },
+   {
+    "id": "s1-jue",
+    "day": "Vie 30",
+    "date": "2026-10-30",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 4 rectas",
+    "km": 4
+   },
+   {
+    "id": "s1-sab",
+    "day": "Sáb 31",
+    "date": "2026-10-31",
+    "type": "Tirada Z2",
+    "desc": "Tirada corta, ritmo cómodo",
+    "km": 6
+   }
+  ]
+ },
+ {
+  "n": 2,
+  "range": "2 – 8 nov",
+  "name": "Vuelta al volumen",
+  "note": "La tirada crece poco a poco: ninguna salida más de un 10% por encima de la más larga del último mes (la regla con mejor evidencia de prevención de lesiones).",
+  "s": [
+   {
+    "id": "s2-lun",
+    "day": "Lun 2",
+    "date": "2026-11-02",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 5
+   },
+   {
+    "id": "s2-mar",
+    "day": "Mar 3",
+    "date": "2026-11-03",
+    "type": "Fartlek suave",
+    "desc": "1,5 km calent. + 6 × 1' a sensación de 10K / 1' suave + rodaje suave hasta 6 km",
+    "km": 6
+   },
+   {
+    "id": "s2-jue",
+    "day": "Jue 5",
+    "date": "2026-11-05",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 5
+   },
+   {
+    "id": "s2-sab",
+    "day": "Sáb 7",
+    "date": "2026-11-07",
+    "type": "Tirada Z2",
+    "desc": "Ritmo cómodo",
+    "km": 6.5
+   }
+  ]
+ },
+ {
+  "n": 3,
+  "range": "9 – 15 nov",
+  "name": "Base + VO2máx",
+  "note": "Segundo fartlek, algo más largo y todavía por sensaciones. Desde esta semana corres 5 días: el viernes es un rodaje corto y muy suave antes de la tirada, que reparte el volumen para que cada salida pese menos.",
+  "s": [
+   {
+    "id": "s3-lun",
+    "day": "Lun 9",
+    "date": "2026-11-09",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 5
+   },
+   {
+    "id": "s3-mar",
+    "day": "Mar 10",
+    "date": "2026-11-10",
+    "type": "Fartlek",
+    "desc": "2 km calent. + 7 × (1' a sensación de 10K / 1' suave) + 1 km enfr.",
+    "km": 6
+   },
+   {
+    "id": "s3-jue",
+    "day": "Jue 12",
+    "date": "2026-11-12",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 4
+   },
+   {
+    "id": "s3-vie",
+    "day": "Vie 13",
+    "date": "2026-11-13",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 3
+   },
+   {
+    "id": "s3-sab",
+    "day": "Sáb 14",
+    "date": "2026-11-14",
+    "type": "Tirada Z2",
+    "desc": "Ritmo cómodo",
+    "km": 7.2
+   }
+  ]
+ },
+ {
+  "n": 4,
+  "range": "16 – 22 nov",
+  "name": "Base + test de umbral",
+  "note": "Repetimos el test guiado del reloj para actualizar la FC de umbral (el pulso es más fiable que el ritmo que calcula). Empiezan los sprints en cuesta.",
+  "s": [
+   {
+    "id": "s4-lun",
+    "day": "Lun 16",
+    "date": "2026-11-16",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 5
+   },
+   {
+    "id": "s4-mar",
+    "day": "Mar 17",
+    "date": "2026-11-17",
+    "type": "TEST umbral",
+    "desc": "Prueba de umbral guiada del reloj (etapas por FC), con piernas descansadas",
+    "km": 5
+   },
+   {
+    "id": "s4-jue",
+    "day": "Jue 19",
+    "date": "2026-11-19",
+    "type": "Z2 + cuestas",
+    "desc": "Rodaje suave + 6 sprints de 8-10\" en cuesta del 6-10% (rec. 2-3' andando)",
+    "km": 6
+   },
+   {
+    "id": "s4-vie",
+    "day": "Vie 20",
+    "date": "2026-11-20",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 3.5
+   },
+   {
+    "id": "s4-sab",
+    "day": "Sáb 21",
+    "date": "2026-11-21",
+    "type": "Tirada Z2",
+    "desc": "Ritmo cómodo",
+    "km": 8
+   }
+  ]
+ },
+ {
+  "n": 5,
+  "range": "23 – 29 nov",
+  "name": "Base + VO2máx",
+  "note": "Primeras series de VO2máx (5×3'): intervalos largos, el formato con mejor evidencia para subir el VO2máx. Empieza la pierna pesada del miércoles: el subumbral del jueves es corto y solo si el semáforo está en verde.",
+  "s": [
+   {
+    "id": "s5-lun",
+    "day": "Lun 23",
+    "date": "2026-11-23",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 5
+   },
+   {
+    "id": "s5-mar",
+    "day": "Mar 24",
+    "date": "2026-11-24",
+    "type": "5 × 3'",
+    "desc": "2 km calent. + 5 × 3' a 4'50\"-5'05\"/km (rec. 2' trote) + 2 km enfr.",
+    "km": 8
+   },
+   {
+    "id": "s5-jue",
+    "day": "Jue 26",
+    "date": "2026-11-26",
+    "type": "Subumbral 3 × 6'",
+    "desc": "2 km calent. + 3 × 6' a FC 152-164 (rec. 1' trote) + 1 km enfr. Solo con semáforo verde y piernas bien tras la pierna del miércoles; si no, rodaje Z2 + rectas",
+    "km": 6
+   },
+   {
+    "id": "s5-vie",
+    "day": "Vie 27",
+    "date": "2026-11-27",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 4
+   },
+   {
+    "id": "s5-sab",
+    "day": "Sáb 28",
+    "date": "2026-11-28",
+    "type": "Tirada Z2",
+    "desc": "Ritmo cómodo",
+    "km": 8.8
+   }
+  ]
+ },
+ {
+  "n": 6,
+  "range": "30 nov – 6 dic",
+  "name": "Base + VO2máx",
+  "note": "Dos calidades (martes y jueves), así que la tirada del sábado va entera en Z2.",
+  "s": [
+   {
+    "id": "s6-lun",
+    "day": "Lun 30",
+    "date": "2026-11-30",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 5
+   },
+   {
+    "id": "s6-mar",
+    "day": "Mar 1",
+    "date": "2026-12-01",
+    "type": "4 × 4'",
+    "desc": "2 km calent. + 4 × 4' a 4'50\"-5'05\"/km (rec. 3' trote) + 1,5 km enfr.",
+    "km": 8
+   },
+   {
+    "id": "s6-jue",
+    "day": "Jue 3",
+    "date": "2026-12-03",
+    "type": "Subumbral 4 × 6'",
+    "desc": "2 km calent. + 4 × 6' a FC 152-164 (rec. 1' trote) + 1 km enfr.",
+    "km": 7
+   },
+   {
+    "id": "s6-vie",
+    "day": "Vie 4",
+    "date": "2026-12-04",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 4
+   },
+   {
+    "id": "s6-sab",
+    "day": "Sáb 5",
+    "date": "2026-12-05",
+    "type": "Tirada Z2",
+    "desc": "Ritmo cómodo, entera suave",
+    "km": 9.5
+   }
+  ]
+ },
+ {
+  "n": 7,
+  "range": "7 – 13 dic",
+  "name": "Mini-descarga + TEST 5K",
+  "note": "Mini-taper de 4-5 días manteniendo la intensidad. Recorrido llano y sin semáforos (o pista). Con el resultado recalculamos todas las zonas de ritmo.",
+  "s": [
+   {
+    "id": "s7-lun",
+    "day": "Lun 7",
+    "date": "2026-12-07",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 4 rectas",
+    "km": 5
+   },
+   {
+    "id": "s7-mar",
+    "day": "Mar 8",
+    "date": "2026-12-08",
+    "type": "Activación",
+    "desc": "2 km calent. + 3 × 3' a ritmo 5K (4'55\"-5'00\") rec. 2' + 1 km enfr.",
+    "km": 6
+   },
+   {
+    "id": "s7-jue",
+    "day": "Jue 10",
+    "date": "2026-12-10",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje muy suave + 4 rectas",
+    "km": 5
+   },
+   {
+    "id": "s7-sab",
+    "day": "Sáb 12",
+    "date": "2026-12-12",
+    "type": "TEST 5K",
+    "desc": "2 km calent. + 4 rectas + 5 km a tope (objetivo ≤ 4'59\"/km → sub-25) + 1,5 km enfr.",
+    "km": 8.5
+   }
+  ]
+ },
+ {
+  "n": 8,
+  "range": "14 – 20 dic",
+  "name": "Umbral / 10K",
+  "note": "Tras un 5K la fuerza tarda ~4 días en volver aunque no haya agujetas: el martes es suave y la calidad pasa al jueves. El sábado, primer final rápido: los últimos 1,5 km de la tirada a ritmo de media, para aprender a correr rápido con las piernas cansadas.",
+  "s": [
+   {
+    "id": "s8-lun",
+    "day": "Lun 14",
+    "date": "2026-12-14",
+    "type": "Rodaje Z1",
+    "desc": "Regenerativo",
+    "km": 5
+   },
+   {
+    "id": "s8-mar",
+    "day": "Mar 15",
+    "date": "2026-12-15",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s8-jue",
+    "day": "Jue 17",
+    "date": "2026-12-17",
+    "type": "Ritmo 10K",
+    "desc": "2 km calent. + 5 × 1 km a 5'20\"-5'25\"/km (rec. 2') + 1,5 km enfr.",
+    "km": 9
+   },
+   {
+    "id": "s8-vie",
+    "day": "Vie 18",
+    "date": "2026-12-18",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 4
+   },
+   {
+    "id": "s8-sab",
+    "day": "Sáb 19",
+    "date": "2026-12-19",
+    "type": "Tirada final RM",
+    "desc": "10,4 km: 8,9 en Z2 + últimos 1,5 km a ritmo media (RM). Solo con semáforo verde; si no, entera suave",
+    "km": 10.4
+   }
+  ]
+ },
+ {
+  "n": 9,
+  "range": "21 – 27 dic",
+  "name": "Umbral / 10K",
+  "note": "Semana de Navidad: si hay que mover días, prioriza el martes y el sábado.",
+  "s": [
+   {
+    "id": "s9-lun",
+    "day": "Lun 21",
+    "date": "2026-12-21",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 5
+   },
+   {
+    "id": "s9-mar",
+    "day": "Mar 22",
+    "date": "2026-12-22",
+    "type": "Pirámide 10K",
+    "desc": "2 km calent. + 1-2-2-1 km a 5'20\"-5'28\"/km (rec. 2') + 2 km enfr.",
+    "km": 10
+   },
+   {
+    "id": "s9-jue",
+    "day": "Jue 24",
+    "date": "2026-12-24",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 4 rectas",
+    "km": 6
+   },
+   {
+    "id": "s9-vie",
+    "day": "Vie 25",
+    "date": "2026-12-25",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 4
+   },
+   {
+    "id": "s9-sab",
+    "day": "Sáb 26",
+    "date": "2026-12-26",
+    "type": "Tirada Z2",
+    "desc": "Ritmo cómodo (4 días antes de la carrera)",
+    "km": 11.4
+   }
+  ]
+ },
+ {
+  "n": 10,
+  "range": "28 dic – 3 ene",
+  "name": "CARRERA: San Silvestre de Huelva 10K",
+  "note": "Intento oficial de sub-55 (≤ 5'29\"/km). Primer km a ≤ 5'30\", asentarse en 5'25\"-5'28\" y apretar desde el km 8. Este resultado decide el ritmo objetivo de Ayamonte.",
+  "s": [
+   {
+    "id": "s10-lun",
+    "day": "Lun 28",
+    "date": "2026-12-28",
+    "type": "Z2 + toques",
+    "desc": "5,5 km suaves con 3 × 1' a ritmo 10K",
+    "km": 5.5
+   },
+   {
+    "id": "s10-mar",
+    "day": "Mar 29",
+    "date": "2026-12-29",
+    "type": "Activación",
+    "desc": "20' de trote muy suave (o descanso)",
+    "km": 3.5
+   },
+   {
+    "id": "s10-mie",
+    "day": "Mié 30",
+    "date": "2026-12-30",
+    "type": "CARRERA 10K",
+    "desc": "San Silvestre 10K · ~2 km calentamiento + 10 km objetivo sub-55",
+    "km": 12
+   },
+   {
+    "id": "s10-sab",
+    "day": "Sáb 2",
+    "date": "2027-01-02",
+    "type": "Rodaje Z1",
+    "desc": "Regenerativo",
+    "km": 9
+   }
+  ]
+ },
+ {
+  "n": 11,
+  "range": "4 – 10 ene",
+  "name": "Específico media",
+  "note": "Desde aquí todo se orienta a Ayamonte. El umbral pasa a ser la sesión central, hecho por pulso y «controlado», unas pulsaciones por debajo del techo.",
+  "s": [
+   {
+    "id": "s11-lun",
+    "day": "Lun 4",
+    "date": "2027-01-04",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s11-mar",
+    "day": "Mar 5",
+    "date": "2027-01-05",
+    "type": "Umbral",
+    "desc": "2 km calent. + 3 × 2 km a FC 165-172 (rec. 2') + 2 km enfr.",
+    "km": 10
+   },
+   {
+    "id": "s11-jue",
+    "day": "Jue 7",
+    "date": "2027-01-07",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas (el sábado lleva final a ritmo de media)",
+    "km": 7
+   },
+   {
+    "id": "s11-vie",
+    "day": "Vie 8",
+    "date": "2027-01-08",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 4.5
+   },
+   {
+    "id": "s11-sab",
+    "day": "Sáb 9",
+    "date": "2027-01-09",
+    "type": "Tirada final RM",
+    "desc": "12,5 km: 10 en Z2 + últimos 2,5 km a ritmo media (RM)",
+    "km": 12.5
+   }
+  ]
+ },
+ {
+  "n": 12,
+  "range": "11 – 17 ene",
+  "name": "Específico media",
+  "note": "Esta semana se fija el ritmo de media con el resultado del 10K: ≤52:00 → 5'27\"-5'30\"; 52:00-53:30 → 5'33\"-5'36\"; >53:30 → 5'41\".",
+  "s": [
+   {
+    "id": "s12-lun",
+    "day": "Lun 11",
+    "date": "2027-01-11",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s12-mar",
+    "day": "Mar 12",
+    "date": "2027-01-12",
+    "type": "Tempo",
+    "desc": "2 km calent. + 2 × 15' a FC 165-172 (rec. 3') + 2 km enfr.",
+    "km": 11
+   },
+   {
+    "id": "s12-jue",
+    "day": "Jue 14",
+    "date": "2027-01-14",
+    "type": "Subumbral 5 × 6'",
+    "desc": "2 km calent. + 5 × 6' a FC 152-164 (rec. 1' trote) + 1 km enfr.",
+    "km": 7.5
+   },
+   {
+    "id": "s12-vie",
+    "day": "Vie 15",
+    "date": "2027-01-15",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 5
+   },
+   {
+    "id": "s12-sab",
+    "day": "Sáb 16",
+    "date": "2027-01-16",
+    "type": "Tirada Z2",
+    "desc": "Ritmo cómodo",
+    "km": 13.6
+   }
+  ]
+ },
+ {
+  "n": 13,
+  "range": "18 – 24 ene",
+  "name": "Descarga",
+  "note": "Semana de asimilación: menos volumen y un toque de VO2máx para no perder chispa. Pierna al 60%. Buen momento para un análisis de sangre con ferritina, hemoglobina y saturación de transferrina (por la mañana, sin entreno fuerte el día antes). La tirada termina con 2 km a ritmo de media (con el RM ya fijado por el 10K).",
+  "s": [
+   {
+    "id": "s13-lun",
+    "day": "Lun 18",
+    "date": "2027-01-18",
+    "type": "Rodaje Z1",
+    "desc": "Suave",
+    "km": 6
+   },
+   {
+    "id": "s13-mar",
+    "day": "Mar 19",
+    "date": "2027-01-19",
+    "type": "5 × 3'",
+    "desc": "2 km calent. + 5 × 3' a 4'50\"-5'00\"/km (rec. 2' trote) + 2 km enfr.",
+    "km": 9
+   },
+   {
+    "id": "s13-jue",
+    "day": "Jue 21",
+    "date": "2027-01-21",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s13-sab",
+    "day": "Sáb 23",
+    "date": "2027-01-23",
+    "type": "Tirada final RM",
+    "desc": "12 km: 10 en Z2 + últimos 2 km a ritmo media (RM). Solo con semáforo verde; si no, entera suave",
+    "km": 12
+   }
+  ]
+ },
+ {
+  "n": 14,
+  "range": "25 – 31 ene",
+  "name": "Específico media",
+  "note": "Tirada entera suave, así que el jueves toca subumbral (3×10'). Desde ahora, cuando puedas, las tiradas a la misma hora que la carrera (17-18 h).",
+  "s": [
+   {
+    "id": "s14-lun",
+    "day": "Lun 25",
+    "date": "2027-01-25",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s14-mar",
+    "day": "Mar 26",
+    "date": "2027-01-26",
+    "type": "Ritmo media",
+    "desc": "2 km calent. + 3 × 3 km a RM (rec. 2') + 1 km enfr.",
+    "km": 12
+   },
+   {
+    "id": "s14-jue",
+    "day": "Jue 28",
+    "date": "2027-01-28",
+    "type": "Subumbral 3 × 10'",
+    "desc": "2 km calent. + 3 × 10' a FC 152-164 (rec. 2' trote) + 1 km enfr.",
+    "km": 8
+   },
+   {
+    "id": "s14-vie",
+    "day": "Vie 29",
+    "date": "2027-01-29",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 5
+   },
+   {
+    "id": "s14-sab",
+    "day": "Sáb 30",
+    "date": "2027-01-30",
+    "type": "Tirada Z2",
+    "desc": "15 km en Z2",
+    "km": 15
+   }
+  ]
+ },
+ {
+  "n": 15,
+  "range": "1 – 7 feb",
+  "name": "Específico media",
+  "note": "El martes es el test que decide si Ayamonte va a 1:55. El subumbral del jueves, solo si el martes salió bien y el semáforo está en verde.",
+  "s": [
+   {
+    "id": "s15-lun",
+    "day": "Lun 1",
+    "date": "2027-02-01",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s15-mar",
+    "day": "Mar 2",
+    "date": "2027-02-02",
+    "type": "Ritmo media · test 1:55",
+    "desc": "2 km calent. + 2 × 5 km a 5'27\"/km (rec. 3') + 1 km enfr. Test de decisión: si sale con FC <168 y RPE ≤6, objetivo 1:55",
+    "km": 13
+   },
+   {
+    "id": "s15-jue",
+    "day": "Jue 4",
+    "date": "2027-02-04",
+    "type": "Subumbral 3 × 8'",
+    "desc": "2 km calent. + 3 × 8' a FC 152-164 (rec. 1'30\" trote) + 1 km enfr. Solo con semáforo verde y si el martes salió bien; si no, rodaje Z2 + rectas",
+    "km": 7.5
+   },
+   {
+    "id": "s15-vie",
+    "day": "Vie 5",
+    "date": "2027-02-05",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 5
+   },
+   {
+    "id": "s15-sab",
+    "day": "Sáb 6",
+    "date": "2027-02-06",
+    "type": "Tirada Z2",
+    "desc": "16,5 km en Z2",
+    "km": 16.5
+   }
+  ]
+ },
+ {
+  "n": 16,
+  "range": "8 – 14 feb",
+  "name": "Ensayo general",
+  "note": "El sábado es el ensayo de carrera: ritmo, gel/agua, desayuno y zapatillas exactamente como el día D.",
+  "s": [
+   {
+    "id": "s16-lun",
+    "day": "Lun 8",
+    "date": "2027-02-08",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s16-mar",
+    "day": "Mar 9",
+    "date": "2027-02-09",
+    "type": "Umbral moderado",
+    "desc": "2 km calent. + 4 × 8' en la parte baja de Z4 (FC 165-170, rec. 2') + 1,5 km enfr.",
+    "km": 11
+   },
+   {
+    "id": "s16-jue",
+    "day": "Jue 11",
+    "date": "2027-02-11",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 4 rectas",
+    "km": 7
+   },
+   {
+    "id": "s16-vie",
+    "day": "Vie 12",
+    "date": "2027-02-12",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 4
+   },
+   {
+    "id": "s16-sab",
+    "day": "Sáb 13",
+    "date": "2027-02-13",
+    "type": "ENSAYO",
+    "desc": "16 km: 3 Z2 + 10 km continuos a RM + 3 Z2. Ensayo general a las 18:00",
+    "km": 16
+   }
+  ]
+ },
+ {
+  "n": 17,
+  "range": "15 – 21 feb",
+  "name": "Pico de volumen",
+  "note": "La semana más cargada y la tirada más larga. Si vas sobrado, puedes alargar 1 km los rodajes del lunes y el jueves.",
+  "s": [
+   {
+    "id": "s17-lun",
+    "day": "Lun 15",
+    "date": "2027-02-15",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6.5
+   },
+   {
+    "id": "s17-mar",
+    "day": "Mar 16",
+    "date": "2027-02-16",
+    "type": "Ritmo media",
+    "desc": "2 km calent. + 3 × 3 km a RM (rec. 2') + 1 km enfr.",
+    "km": 12
+   },
+   {
+    "id": "s17-jue",
+    "day": "Jue 18",
+    "date": "2027-02-18",
+    "type": "Z2 + cuestas",
+    "desc": "Rodaje suave + últimos 6 sprints en cuesta del plan",
+    "km": 7
+   },
+   {
+    "id": "s17-vie",
+    "day": "Vie 19",
+    "date": "2027-02-19",
+    "type": "Rodaje Z2",
+    "desc": "Corto y muy suave, la víspera de la tirada (FC ≤140)",
+    "km": 5
+   },
+   {
+    "id": "s17-sab",
+    "day": "Sáb 20",
+    "date": "2027-02-20",
+    "type": "Tirada final RM",
+    "desc": "18,2 km (la más larga): 15-15,5 en Z2 + últimos 3 km a RM",
+    "km": 18.2
+   }
+  ]
+ },
+ {
+  "n": 18,
+  "range": "22 – 28 feb",
+  "name": "Afinamiento",
+  "note": "Empieza el taper: volumen −25-30%, intensidad igual. Sin progresivos.",
+  "s": [
+   {
+    "id": "s18-lun",
+    "day": "Lun 22",
+    "date": "2027-02-22",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 6 rectas",
+    "km": 6
+   },
+   {
+    "id": "s18-mar",
+    "day": "Mar 23",
+    "date": "2027-02-23",
+    "type": "Ritmo media",
+    "desc": "2 km calent. + 2 × 3 km a RM (rec. 2') + 2 km enfr.",
+    "km": 10
+   },
+   {
+    "id": "s18-jue",
+    "day": "Jue 25",
+    "date": "2027-02-25",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 4 rectas",
+    "km": 5
+   },
+   {
+    "id": "s18-sab",
+    "day": "Sáb 27",
+    "date": "2027-02-27",
+    "type": "Tirada media",
+    "desc": "12,5 km: Z2 con 3 km a RM",
+    "km": 12.5
+   }
+  ]
+ },
+ {
+  "n": 19,
+  "range": "1 – 7 mar",
+  "name": "CARRERA: Media Maratón de Ayamonte",
+  "note": "Fecha estimada: sábado 6 de marzo (en 2026 fue el sábado 7 a las 18:00). Unos 19 km antes de la carrera (−58% respecto al pico) y sin repuntes de volumen.",
+  "s": [
+   {
+    "id": "s19-lun",
+    "day": "Lun 1",
+    "date": "2027-03-01",
+    "type": "Z2 + rectas",
+    "desc": "Rodaje suave + 4 rectas",
+    "km": 6
+   },
+   {
+    "id": "s19-mar",
+    "day": "Mar 2",
+    "date": "2027-03-02",
+    "type": "Recordatorio",
+    "desc": "1,5 km calent. + 3 × 1,5 km a RM (rec. 90\") + 1,5 km enfr.",
+    "km": 8
+   },
+   {
+    "id": "s19-jue",
+    "day": "Jue 4",
+    "date": "2027-03-04",
+    "type": "Activación",
+    "desc": "Trote suave + 3 rectas",
+    "km": 5
+   },
+   {
+    "id": "s19-sab",
+    "day": "Sáb 6",
+    "date": "2027-03-06",
+    "type": "CARRERA 21K",
+    "desc": "~1,5 km calentamiento + 21,1 km. Salida 5\"/km más lenta que RM los 2 primeros km",
+    "km": 22.6
+   }
+  ]
+ }
+], parts: {
+ "s1-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 4
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s1-mar": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  }
+ ],
+ "s1-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 4
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s1-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 6
+  }
+ ],
+ "s2-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s2-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 1.5
+  },
+  {
+   "n": "Fartlek",
+   "k": "far",
+   "reps": 6,
+   "wmin": 1,
+   "rmin": 1,
+   "rk": "trot",
+   "x": "1' a sensación de 10K / 1' suave, sin mirar el ritmo"
+  },
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 2.5
+  }
+ ],
+ "s2-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s2-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 6.5
+  }
+ ],
+ "s3-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s3-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Fartlek",
+   "k": "far",
+   "reps": 7,
+   "wmin": 1,
+   "rmin": 1,
+   "rk": "trot",
+   "x": "1' a 5'15\"-5'20\" (ajustado tras el fartlek del 3 nov) / 1' suave",
+   "lo": 315,
+   "hi": 320
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s3-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 4
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s3-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 7.2
+  }
+ ],
+ "s4-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s4-mar": [
+  {
+   "n": "Etapa 1",
+   "k": "test",
+   "min": 8,
+   "hr": "126-147"
+  },
+  {
+   "n": "Etapa 2",
+   "k": "test",
+   "min": 5,
+   "hr": "147-157"
+  },
+  {
+   "n": "Etapa 3",
+   "k": "test",
+   "min": 3.5,
+   "hr": "157-166"
+  },
+  {
+   "n": "Etapa 4",
+   "k": "test",
+   "min": 3.5,
+   "hr": "166-176"
+  },
+  {
+   "n": "Etapa 5",
+   "k": "test",
+   "min": 3,
+   "hr": "176-186"
+  },
+  {
+   "n": "Etapa 6",
+   "k": "test",
+   "min": 3,
+   "hr": "186-195"
+  },
+  {
+   "n": "Vuelta a la calma",
+   "k": "z1",
+   "min": 8,
+   "x": "Hasta donde llegues: el reloj calcula el umbral con las etapas completadas"
+  }
+ ],
+ "s4-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Sprints en cuesta",
+   "k": "cue",
+   "reps": 6,
+   "lbl": "6 × 8-10\"",
+   "x": "Cuesta del 6-10%, bajar andando 2-3'"
+  }
+ ],
+ "s4-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 8
+  }
+ ],
+ "s5-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s5-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Series",
+   "k": "vo2",
+   "reps": 5,
+   "wmin": 3,
+   "rmin": 2,
+   "rk": "trot",
+   "x": "Intervalos largos: más tiempo real cerca del VO2máx"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 2
+  }
+ ],
+ "s5-jue": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Subumbral",
+   "k": "sub",
+   "reps": 3,
+   "wmin": 6,
+   "rmin": 1,
+   "rk": "trot",
+   "x": "Cómodamente exigente (RPE 5-6). Si las piernas van cargadas por la pierna del miércoles, cámbialo por Z2 + rectas"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s5-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 8.8
+  }
+ ],
+ "s6-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s6-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Series",
+   "k": "vo2",
+   "reps": 4,
+   "wmin": 4,
+   "rmin": 3,
+   "rk": "trot",
+   "x": "El pulso sube poco a poco: no aceleres en las primeras"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1.5
+  }
+ ],
+ "s6-jue": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Subumbral",
+   "k": "sub",
+   "reps": 4,
+   "wmin": 6,
+   "rmin": 1,
+   "rk": "trot",
+   "x": "Cómodamente exigente (RPE 5-6). La última no pasa de 164"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s6-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 9.5
+  }
+ ],
+ "s7-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s7-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Ritmo 5K",
+   "k": "k5",
+   "reps": 3,
+   "wmin": 3,
+   "rmin": 2,
+   "rk": "trot"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s7-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s7-sab": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  },
+  {
+   "n": "TEST 5K",
+   "k": "test5",
+   "km": 5,
+   "x": "Km 1 controlado a 5'00\", luego a tope"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1.5
+  }
+ ],
+ "s8-lun": [
+  {
+   "n": "Rodaje Z1",
+   "k": "z1",
+   "km": 5
+  }
+ ],
+ "s8-mar": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s8-jue": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Series",
+   "k": "k10",
+   "reps": 5,
+   "wkm": 1,
+   "rmin": 2,
+   "rk": "trot"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1.5
+  }
+ ],
+ "s8-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 8.9
+  },
+  {
+   "n": "Final a RM",
+   "k": "rm",
+   "km": 1.5,
+   "x": "Progresa sin cambio brusco. Si el pulso pasa de 166, aflójalo"
+  }
+ ],
+ "s9-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s9-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Pirámide",
+   "k": "k10",
+   "seq": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "rmin": 2,
+   "rk": "trot",
+   "lbl": "1-2-2-1 km"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 2
+  }
+ ],
+ "s9-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s9-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 11.4
+  }
+ ],
+ "s10-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 4.5
+  },
+  {
+   "n": "Toques",
+   "k": "k10",
+   "reps": 3,
+   "wmin": 1,
+   "rmin": 2,
+   "rk": "z2",
+   "x": "Recuperación rodando suave"
+  },
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 0.5
+  }
+ ],
+ "s10-mar": [
+  {
+   "n": "Trote",
+   "k": "z1",
+   "min": 20,
+   "x": "O descanso, si lo prefieres"
+  }
+ ],
+ "s10-mie": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Km 1",
+   "k": "race10a",
+   "km": 1
+  },
+  {
+   "n": "Km 2-7",
+   "k": "race10",
+   "km": 6
+  },
+  {
+   "n": "Km 8-10",
+   "k": "race10z",
+   "km": 3,
+   "x": "Si vas bien, aprieta"
+  }
+ ],
+ "s10-sab": [
+  {
+   "n": "Rodaje Z1",
+   "k": "z1",
+   "km": 9
+  }
+ ],
+ "s11-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s11-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Umbral",
+   "k": "u",
+   "reps": 3,
+   "wkm": 2,
+   "rmin": 2,
+   "rk": "trot",
+   "x": "Por pulso"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 2
+  }
+ ],
+ "s11-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 7
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s11-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 10.0
+  },
+  {
+   "n": "Final a RM",
+   "k": "rm",
+   "km": 2.5
+  }
+ ],
+ "s12-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s12-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Tempo",
+   "k": "u",
+   "reps": 2,
+   "wmin": 15,
+   "rmin": 3,
+   "rk": "trot",
+   "x": "Por pulso"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 2
+  }
+ ],
+ "s12-jue": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Subumbral",
+   "k": "sub",
+   "reps": 5,
+   "wmin": 6,
+   "rmin": 1,
+   "rk": "trot",
+   "x": "Cómodamente exigente (RPE 5-6). La última no pasa de 164"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s12-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 13.6,
+   "x": "Primer gel a los 35-40 min: empieza a entrenar el estómago"
+  }
+ ],
+ "s13-lun": [
+  {
+   "n": "Rodaje Z1",
+   "k": "z1",
+   "km": 6
+  }
+ ],
+ "s13-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Series",
+   "k": "vo2",
+   "reps": 5,
+   "wmin": 3,
+   "rmin": 2,
+   "rk": "trot"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 2
+  }
+ ],
+ "s13-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s13-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 10
+  },
+  {
+   "n": "Final a RM",
+   "k": "rm",
+   "km": 2,
+   "x": "Al ritmo de media fijado con el 10K. Si el pulso pasa de 166, aflójalo"
+  }
+ ],
+ "s14-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s14-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Ritmo media",
+   "k": "rm",
+   "reps": 3,
+   "wkm": 3,
+   "rmin": 2,
+   "rk": "trot"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s14-jue": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Subumbral",
+   "k": "sub",
+   "reps": 3,
+   "wmin": 10,
+   "rmin": 2,
+   "rk": "trot",
+   "x": "Cómodamente exigente (RPE 5-6). La última no pasa de 164"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s14-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 15,
+   "x": "Gel a los 35-40 min y otro hacia el km 11. Si puedes, a las 17-18 h, la hora de la carrera"
+  }
+ ],
+ "s15-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s15-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Ritmo media",
+   "k": "rm",
+   "reps": 2,
+   "wkm": 5,
+   "rmin": 3,
+   "rk": "trot",
+   "x": "Test del 1:55: a 5'27\"/km. FC <168 y RPE ≤6 → vas a por 1:55; si no, 1:57-1:58"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s15-jue": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Subumbral",
+   "k": "sub",
+   "reps": 3,
+   "wmin": 8,
+   "rmin": 1.5,
+   "rk": "trot",
+   "x": "Cómodamente exigente (RPE 5-6). La última no pasa de 164"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s15-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 16.5,
+   "x": "2 geles (km 6-7 y 12-13)"
+  }
+ ],
+ "s16-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s16-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Umbral moderado",
+   "k": "u8",
+   "reps": 4,
+   "wmin": 8,
+   "rmin": 2,
+   "rk": "trot",
+   "x": "Parte baja de Z4"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1.5
+  }
+ ],
+ "s16-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 7
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s16-sab": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 3
+  },
+  {
+   "n": "Bloque a RM",
+   "k": "rm",
+   "km": 10,
+   "x": "Ensayo completo: comida a las 13:30-14:30, cafeína a las 17:00 (si ya la has probado), Zoom Fly, geles en los km 6-7 y 13-14. Pésate antes y después"
+  },
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 3
+  }
+ ],
+ "s17-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6.5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s17-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Ritmo media",
+   "k": "rm",
+   "reps": 3,
+   "wkm": 3,
+   "rmin": 2,
+   "rk": "trot"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1
+  }
+ ],
+ "s17-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 7.0
+  },
+  {
+   "n": "Sprints en cuesta",
+   "k": "cue",
+   "reps": 6,
+   "lbl": "6 × 8-10\"",
+   "x": "Cuesta del 6-10%, bajar andando 2-3'"
+  }
+ ],
+ "s17-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 15.2,
+   "x": "Gel hacia el km 8 y el 14"
+  },
+  {
+   "n": "Final a RM",
+   "k": "rm",
+   "km": 3
+  }
+ ],
+ "s18-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 6
+  }
+ ],
+ "s18-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 2,
+   "x": "+ movilidad y 3-4 rectas"
+  },
+  {
+   "n": "Ritmo media",
+   "k": "rm",
+   "reps": 2,
+   "wkm": 3,
+   "rmin": 2,
+   "rk": "trot"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 2
+  }
+ ],
+ "s18-jue": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s18-sab": [
+  {
+   "n": "Tirada Z2",
+   "k": "z2",
+   "km": 9.5
+  },
+  {
+   "n": "Final a RM",
+   "k": "rm",
+   "km": 3
+  }
+ ],
+ "s19-lun": [
+  {
+   "n": "Rodaje Z2",
+   "k": "z2",
+   "km": 6
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 4
+  }
+ ],
+ "s19-mar": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 1.5
+  },
+  {
+   "n": "Ritmo media",
+   "k": "rm",
+   "reps": 3,
+   "wkm": 1.5,
+   "rmin": 1.5,
+   "rk": "trot"
+  },
+  {
+   "n": "Enfriamiento",
+   "k": "z1",
+   "km": 1.5
+  }
+ ],
+ "s19-jue": [
+  {
+   "n": "Trote",
+   "k": "z2",
+   "km": 5
+  },
+  {
+   "n": "Rectas",
+   "k": "rect",
+   "reps": 3
+  }
+ ],
+ "s19-sab": [
+  {
+   "n": "Calentamiento",
+   "k": "cal",
+   "km": 1.5,
+   "x": "+ 3 rectas"
+  },
+  {
+   "n": "Km 1-2",
+   "k": "rm",
+   "km": 2,
+   "off": 5,
+   "x": "5\"/km más lento que RM"
+  },
+  {
+   "n": "Km 3-18",
+   "k": "rm",
+   "km": 16,
+   "x": "Geles en el km 7 y el 14"
+  },
+  {
+   "n": "Km 19-21,1",
+   "k": "rm",
+   "km": 3.1,
+   "off": -8,
+   "x": "Lo que quede"
+  }
+ ],
+ "s3-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 3,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s4-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 3.5,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s5-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 4,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s6-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 4,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s8-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 4,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s9-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 4,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s11-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 4.5,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s12-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 5,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s14-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 5,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s15-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 5,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s16-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 4,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ],
+ "s17-vie": [
+  {
+   "n": "Rodaje suave",
+   "k": "z2",
+   "km": 5,
+   "x": "Suave de verdad: piernas sueltas para mañana",
+   "hr": "≤140"
+  }
+ ]
+}, info: INFO_YO, f5base: 1500, ph5: "24:45", ph10: "52:30",
     goals: [
   { date: "2026-12-12", t: "Test 5K", s: "sub-25:00", c: "var(--test)" },
   { date: "2026-12-30", t: "San Silvestre", s: "10K sub-55", c: "var(--z4)" },
@@ -798,7 +2906,7 @@ const PROFILES = {
 }, rmBase: { sub2: { lo: 338, hi: 341, label: "Sub-2:00" }, t155: { lo: 327, hi: 330, label: "1:55" } }, zt: {
   z1: [420, 450, "116-138", "z1"], cal: [410, 435, "< 145", "z2"], z2: [395, 420, "138-148", "z2"], sub: [345, 365, "152-164", "z3"], z2a: [375, 395, "150-156", "z3"],
   trot: [420, 465, "< 145", "z1"], t: [320, 335, "163-170", "z4"], u: [315, 328, "165-172", "z4"], u8: [320, 330, "165-170", "z4"],
-  k10: [320, 328, "166-176", "z4"], far: [315, 335, "160-172", "z4"], vo2: [290, 305, "172-180", "z5"], k5: [295, 300, "172-180", "z5"],
+  k10: [320, 328, "166-176", "z4"], far: [315, 335, "150-165", "z4"], vo2: [290, 305, "172-180", "z5"], k5: [295, 300, "172-180", "z5"],
   s3015: [275, 285, "172+", "z5"], test5: [290, 299, "175-188", "z5"], race10a: [325, 330, "165-172", "z4"], race10: [325, 328, "170-178", "z4"], race10z: [310, 325, "178+", "z5"],
   rect: [260, 280, "—", "z5"], cue: [0, 0, "—", "z5"], test: [0, 0, "", "z3"],
 },
@@ -829,7 +2937,7 @@ const PROFILES = {
     zt: {
   z1: [430, 460, "116-138", "z1"], cal: [420, 450, "< 145", "z2"], z2: [405, 430, "138-148", "z2"], sub: [360, 380, "152-164", "z3"], z2a: [385, 400, "150-156", "z3"],
   trot: [460, 520, "< 145", "z1"], t: [340, 355, "163-170", "z4"], u: [335, 350, "165-172", "z4"], u8: [340, 355, "165-170", "z4"],
-  k10: [322, 330, "166-176", "z4"], far: [315, 340, "160-172", "z4"], vo2: [300, 315, "172-180", "z5"], k5: [303, 308, "172-180", "z5"],
+  k10: [322, 330, "166-176", "z4"], far: [315, 340, "150-165", "z4"], vo2: [300, 315, "172-180", "z5"], k5: [303, 308, "172-180", "z5"],
   s3015: [285, 300, "172+", "z5"], test5: [300, 306, "175-188", "z5"], race10a: [332, 336, "165-172", "z4"], race10: [325, 329, "170-178", "z4"], race10z: [312, 325, "178+", "z5"],
   rect: [270, 300, "—", "z5"], cue: [0, 0, "—", "z5"], test: [0, 0, "", "z3"],
 },
@@ -892,7 +3000,7 @@ const pace = s => { s = Math.round(s); return `${Math.floor(s / 60)}'${String(s 
 const fmtMin = m => m >= 1 ? (Number.isInteger(m) ? `${m}'` : `${Math.floor(m)}'${String(Math.round((m % 1) * 60)).padStart(2, "0")}"`) : `${Math.round(m * 60)}"`;
 const mmss = m => { const s = Math.round(m * 60); const h = Math.floor(s / 3600); const mm = Math.floor((s % 3600) / 60); const ss = String(s % 60).padStart(2, "0"); return h ? `${h}:${String(mm).padStart(2, "0")}:${ss}` : `${mm}:${ss}`; };
 function partCalc(p) {
-  const z = Z(p.k, p.off || 0); const mid = (z.lo + z.hi) / 2;
+  const z = Z(p.k, p.off || 0); if (p.lo) { z.lo = p.lo; z.hi = p.hi; } const mid = (z.lo + z.hi) / 2;
   let t = 0, vol = "", unitT = 0, units = 1;
   if (p.k === "rect") { t = p.reps * 1.3; vol = `${p.reps} × 15-20"`; }
   else if (p.k === "cue") { t = p.reps * 2.7; vol = p.lbl || `${p.reps} × 8-10"`; }
